@@ -98,6 +98,7 @@ const Initial = styled.div`
   `}
 `;
 
+
 export function Avatar({ loading, username, src, size, ...props }) {
   let avatarFigure = <Icon icon="useralt" />;
   const a11yProps = {};
